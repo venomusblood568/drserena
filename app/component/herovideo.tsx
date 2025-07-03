@@ -39,7 +39,7 @@ export default function HeroVideoBox() {
 
             {/* CTA Button */}
             <div className="flex justify-center mt-5">
-              <button className="flex justify-center items-center w-[285px] h-[98px] px-[35.2px] bg-[#94B0B0] text-white text-[16px] font-sans uppercase tracking-[1.6px] rounded-full  transition-opacity duration-100 ease-linear cursor-pointer text-center">
+              <button className="flex justify-center items-center w-[285px] h-[98px] px-[35.2px] bg-[#94B0B0] hover:opacity-75 text-white text-[16px] font-sans uppercase tracking-[1.6px] rounded-full  transition-opacity duration-100 ease-linear cursor-pointer text-center">
                 Schedule a Consultation
               </button>
             </div>
