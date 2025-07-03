@@ -3,9 +3,9 @@
 
 export default function HeroVideoBox() {
   return (
-    <section className="relative h-fit bg-[#F2F0E8] w-full flex justify-center items-center px-4 md:px-20 overflow-hidden">
+    <section className="relative h-fit bg-[#F2F0E8] w-full flex justify-center items-center px-4 pt-4 md:px-20 overflow-hidden">
       {/* Video Container */}
-      <div className="relative w-[3000px] h-full">
+      <div className="relative w-[3000px] h-full g-2">
         {/* Video */}
         <video
           className="w-full h-full object-cover "
@@ -45,6 +45,7 @@ export default function HeroVideoBox() {
             </div>
           </div>
         </div>
+        <div className="bg-[#F2F0E8] h-14 w-full"></div>
       </div>
     </section>
   );
